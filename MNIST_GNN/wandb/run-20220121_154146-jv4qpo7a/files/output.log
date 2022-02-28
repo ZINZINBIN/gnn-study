@@ -1,0 +1,32 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+torch device avaliable :  True
+torch current device :  0
+torch device num :  4
+torch device avaliable :  True
+torch current device :  0
+torch device num :  4
+torch device avaliable :  True
+torch current device :  0
+torch device num :  4
+torch device avaliable :  True
+torch current device :  0
+torch device num :  4
+Processing...
+Processing...
+Processing...
+Processing...
+Traceback (most recent call last):
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/train_distributed.py", line 67, in <module>
+    mp.spawn(run, args=args, nprocs=world_size, join=True)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 230, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method='spawn')
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 188, in start_processes
+    while not context.join():
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 99, in join
+    ready = multiprocessing.connection.wait(
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/connection.py", line 936, in wait
+    ready = selector.select(timeout)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

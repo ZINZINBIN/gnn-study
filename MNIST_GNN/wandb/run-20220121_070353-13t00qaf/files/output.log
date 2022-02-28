@@ -1,0 +1,26 @@
+torch device avaliable :  True
+torch current device :  0
+torch device num :  2
+torch device avaliable :  True
+torch current device :  0
+torch device num :  2
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_distributed.py", line 67, in <module>
+    mp.spawn(run, args=args, nprocs=world_size, join=True)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 230, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method='spawn')
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 188, in start_processes
+    while not context.join():
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 150, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException:
+-- Process 0 terminated with the following error:
+Traceback (most recent call last):
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 59, in _wrap
+    fn(i, *args)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/utility/distributed.py", line 45, in run
+    wandb.watch(model)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/wandb/sdk/wandb_watch.py", line 49, in watch
+    raise ValueError("You must call `wandb.init` before calling watch")
+ValueError: You must call `wandb.init` before calling watch

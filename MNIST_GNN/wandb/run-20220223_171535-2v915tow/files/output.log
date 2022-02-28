@@ -1,0 +1,26 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_gmm.py", line 90, in <module>
+    model.summary(sample)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/model/network.py", line 375, in summary
+    print(summary(self, sample_inputs, max_depth = None, show_parent_layers=True, show_input = True))
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/pytorch_model_summary/model_summary.py", line 113, in summary
+    model(*inputs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/model/network.py", line 362, in forward
+    x = self.init_graph(x, edge_idx)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/model/layer.py", line 95, in forward
+    x = self.GMMConv(x,edge_idx)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/nn/conv/gmm_conv.py", line 128, in forward
+    out = self.propagate(edge_index, x=out, edge_attr=edge_attr,
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/nn/conv/message_passing.py", line 309, in propagate
+    out = self.message(**msg_kwargs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/nn/conv/gmm_conv.py", line 146, in message
+    (E, D), K = edge_attr.size(), self.kernel_size
+AttributeError: 'NoneType' object has no attribute 'size'

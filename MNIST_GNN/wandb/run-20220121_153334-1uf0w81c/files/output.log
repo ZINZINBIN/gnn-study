@@ -1,0 +1,52 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+torch device avaliable :  True
+torch device avaliable :  True
+torch device avaliable :  True
+torch current device :  0
+torch device num :  4
+torch current device :  0
+torch device num :  4
+torch current device :  0
+torch device num :  4
+torch device avaliable :  True
+torch current device :  0
+torch device num :  4
+Downloading https://data.pyg.org/datasets/MNISTSuperpixels.zip
+Downloading https://data.pyg.org/datasets/MNISTSuperpixels.zip
+Downloading https://data.pyg.org/datasets/MNISTSuperpixels.zip
+Downloading https://data.pyg.org/datasets/MNISTSuperpixels.zip
+Extracting dataset/raw/MNISTSuperpixels.zip
+Extracting dataset/raw/MNISTSuperpixels.zip
+Extracting dataset/raw/MNISTSuperpixels.zip
+Extracting dataset/raw/MNISTSuperpixels.zip
+Processing...
+Traceback (most recent call last):
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/train_distributed.py", line 66, in <module>
+    mp.spawn(run, args=args, nprocs=world_size, join=True)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 230, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method='spawn')
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 188, in start_processes
+    while not context.join():
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 150, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException:
+-- Process 1 terminated with the following error:
+Traceback (most recent call last):
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 59, in _wrap
+    fn(i, *args)
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/utility/distributed.py", line 24, in run
+    train_dataset, valid_dataset, test_dataset = generate_dataset(valid_ratio=valid_ratio)
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/utility/dataloader.py", line 10, in generate_dataset
+    dataset = MNISTSuperpixels(
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/datasets/mnist_superpixels.py", line 37, in __init__
+    super(MNISTSuperpixels, self).__init__(root, transform, pre_transform,
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/data/in_memory_dataset.py", line 57, in __init__
+    super().__init__(root, transform, pre_transform, pre_filter)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/data/dataset.py", line 85, in __init__
+    self._download()
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/data/dataset.py", line 146, in _download
+    self.download()
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/datasets/mnist_superpixels.py", line 53, in download
+    os.unlink(path)
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/raw/MNISTSuperpixels.zip'

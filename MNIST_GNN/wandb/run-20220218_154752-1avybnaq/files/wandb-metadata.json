@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.15.0-167-generic-x86_64-with-glibc2.27",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-18T15:47:53.085593",
+    "startedAt": "2022-02-18T15:47:52.390997",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 2,
+    "cpu_count": 16,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "program": "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_dynamic_reduction_network.py",
+    "codePath": "train_dynamic_reduction_network.py",
+    "git": {
+        "remote": "https://github.com/DIYA-Samsung-AI-challenge/MNIST_GNN.git",
+        "commit": "a031585362dd4bf19794d5492e963b1d521b667a"
+    },
+    "email": "asdwlstn@naver.com",
+    "root": "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN",
+    "host": "diya-server",
+    "username": "zinzinbin",
+    "executable": "/home/zinzinbin/.conda/envs/gnn_environment/bin/python3"
+}

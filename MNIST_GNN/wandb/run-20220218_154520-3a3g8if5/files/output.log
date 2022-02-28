@@ -1,0 +1,23 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+  0%|                                                                                                                                                                                                | 0/128 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_dynamic_reduction_network.py", line 74, in <module>
+    train_loss, train_acc, valid_loss, valid_acc = train_wandb(model, train_loader, criterion, optimizer, scheduler, device, num_epochs, is_valid=True, valid_loader=valid_loader, verbose = True, verbose_period=1, save_best_only=True, save_path=save_path, max_grad_norm=max_grad_norm)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/utility/train.py", line 260, in train_wandb
+    train_loss, train_acc = train_per_epoch(
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/utility/train.py", line 19, in train_per_epoch
+    pred = model.forward(batch)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/model/network.py", line 429, in forward
+    return self.output(x).squeeze(-1)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/functional.py", line 2282, in batch_norm
+    return torch.batch_norm(
+RuntimeError: running_mean should contain 64 elements not 128

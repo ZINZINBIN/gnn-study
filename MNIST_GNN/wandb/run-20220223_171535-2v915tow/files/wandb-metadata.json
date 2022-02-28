@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.15.0-167-generic-x86_64-with-glibc2.27",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-23T17:15:36.274826",
+    "startedAt": "2022-02-23T17:15:35.534904",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 2,
+    "cpu_count": 16,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "program": "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_gmm.py",
+    "codePath": "train_gmm.py",
+    "git": {
+        "remote": "https://github.com/DIYA-Samsung-AI-challenge/MNIST_GNN.git",
+        "commit": "1b8d6aa157733e1677122322e21e1f61ace28bb7"
+    },
+    "email": "asdwlstn@naver.com",
+    "root": "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN",
+    "host": "diya-server",
+    "username": "zinzinbin",
+    "executable": "/home/zinzinbin/.conda/envs/gnn_environment/bin/python3"
+}

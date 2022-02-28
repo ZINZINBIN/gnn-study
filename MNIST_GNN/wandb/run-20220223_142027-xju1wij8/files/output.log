@@ -1,0 +1,6 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_dynamic_reduction_network.py", line 67, in <module>
+    num_epochs = args["num_epochs"]
+KeyError: 'num_epochs'

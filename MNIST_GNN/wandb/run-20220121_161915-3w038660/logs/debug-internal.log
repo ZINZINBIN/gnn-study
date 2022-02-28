@@ -1,0 +1,174 @@
+2022-01-21 16:19:16,388 INFO    MainThread:99693 [internal.py:wandb_internal():87] W&B internal server running at pid: 99693, started at: 2022-01-21 16:19:16.388000
+2022-01-21 16:19:16,391 INFO    WriterThread:99693 [datastore.py:open_for_write():77] open: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/run-3w038660.wandb
+2022-01-21 16:19:16,391 DEBUG   HandlerThread:99693 [handler.py:handle_request():130] handle_request: check_version
+2022-01-21 16:19:16,394 DEBUG   SenderThread:99693 [sender.py:send():234] send: header
+2022-01-21 16:19:16,394 DEBUG   SenderThread:99693 [sender.py:send_request():248] send_request: check_version
+2022-01-21 16:19:16,458 DEBUG   SenderThread:99693 [sender.py:send():234] send: run
+2022-01-21 16:19:16,705 INFO    SenderThread:99693 [dir_watcher.py:__init__():169] watching files in: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files
+2022-01-21 16:19:16,706 INFO    SenderThread:99693 [sender.py:_start_run_threads():804] run started: 3w038660 with start time 1642749555
+2022-01-21 16:19:16,706 DEBUG   SenderThread:99693 [sender.py:send():234] send: summary
+2022-01-21 16:19:16,706 INFO    SenderThread:99693 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-21 16:19:16,707 DEBUG   HandlerThread:99693 [handler.py:handle_request():130] handle_request: run_start
+2022-01-21 16:19:16,716 DEBUG   HandlerThread:99693 [meta.py:__init__():40] meta init
+2022-01-21 16:19:16,716 DEBUG   HandlerThread:99693 [meta.py:__init__():54] meta init done
+2022-01-21 16:19:16,716 DEBUG   HandlerThread:99693 [meta.py:probe():214] probe
+2022-01-21 16:19:16,724 DEBUG   HandlerThread:99693 [meta.py:_setup_git():204] setup git
+2022-01-21 16:19:16,745 DEBUG   HandlerThread:99693 [meta.py:_setup_git():211] setup git done
+2022-01-21 16:19:16,746 DEBUG   HandlerThread:99693 [meta.py:_save_pip():58] save pip
+2022-01-21 16:19:16,746 DEBUG   HandlerThread:99693 [meta.py:_save_pip():72] save pip done
+2022-01-21 16:19:16,746 DEBUG   HandlerThread:99693 [meta.py:_save_conda():79] save conda
+2022-01-21 16:19:17,710 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_created():217] file/dir created: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/wandb-summary.json
+2022-01-21 16:19:17,711 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_created():217] file/dir created: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/requirements.txt
+2022-01-21 16:19:17,712 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_created():217] file/dir created: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/conda-environment.yaml
+2022-01-21 16:19:18,430 DEBUG   HandlerThread:99693 [meta.py:_save_conda():89] save conda done
+2022-01-21 16:19:18,430 DEBUG   HandlerThread:99693 [meta.py:probe():252] probe done
+2022-01-21 16:19:18,437 DEBUG   SenderThread:99693 [sender.py:send():234] send: files
+2022-01-21 16:19:18,437 INFO    SenderThread:99693 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-01-21 16:19:18,448 DEBUG   HandlerThread:99693 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-21 16:19:18,449 DEBUG   SenderThread:99693 [sender.py:send_request():248] send_request: stop_status
+2022-01-21 16:19:18,662 DEBUG   SenderThread:99693 [sender.py:send():234] send: run
+2022-01-21 16:19:18,711 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/conda-environment.yaml
+2022-01-21 16:19:18,711 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/config.yaml
+2022-01-21 16:19:18,712 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_created():217] file/dir created: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/output.log
+2022-01-21 16:19:18,712 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_created():217] file/dir created: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/wandb-metadata.json
+2022-01-21 16:19:18,905 INFO    SenderThread:99693 [sender.py:send_run():702] updated run: 3w038660
+2022-01-21 16:19:19,055 INFO    Thread-11 :99693 [upload_job.py:push():137] Uploaded file /tmp/tmpe9i2t_ucwandb/2fju9o51-wandb-metadata.json
+2022-01-21 16:19:20,712 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/output.log
+2022-01-21 16:19:46,054 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:20:17,452 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:20:48,803 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:21:20,148 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:21:51,482 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:22:22,857 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:22:54,214 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:23:25,567 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:23:56,954 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:24:28,320 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:24:59,666 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:25:31,061 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:26:02,419 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:26:33,743 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:27:05,102 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:27:36,437 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:28:07,749 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:28:39,115 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:29:10,442 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:29:41,791 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:30:13,158 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:30:44,494 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:31:15,845 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:31:47,169 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:32:18,585 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:32:49,918 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:33:21,310 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:33:52,665 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:34:24,052 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:34:55,414 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:35:26,798 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:35:58,209 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:36:29,560 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:37:00,960 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:37:32,340 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:38:03,734 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:38:35,090 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:39:06,448 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:39:37,786 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:40:09,159 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:40:40,492 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:41:11,858 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:41:43,193 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:42:14,593 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:42:45,943 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:43:17,293 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:43:48,641 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:44:20,004 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:44:51,362 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:45:22,726 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:45:54,066 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:46:25,421 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:46:56,819 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:47:28,200 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:47:59,551 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:48:30,901 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:49:02,272 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:49:33,622 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:50:05,005 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:50:36,344 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:51:07,711 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:51:39,056 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:52:10,443 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:52:41,762 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:53:13,136 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:53:44,451 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:54:15,838 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:54:47,210 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:55:18,565 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:55:49,879 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:56:21,250 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:56:52,597 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:57:23,946 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:57:55,281 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:58:26,678 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:58:58,028 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 16:59:29,402 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:00:00,796 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:00:32,145 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:01:03,522 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:01:34,855 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:02:06,168 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:02:37,504 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:03:08,841 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:03:40,188 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:04:11,574 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:04:42,897 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:05:14,278 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:05:45,642 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:06:16,999 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:06:48,326 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:07:19,676 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:07:51,052 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:08:22,387 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:08:53,754 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:09:25,116 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:09:56,496 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:10:27,876 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:10:59,221 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:11:30,594 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:12:01,944 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:12:33,304 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:13:04,635 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:13:36,044 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:14:07,402 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:14:38,772 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:15:10,165 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:15:41,519 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:16:12,889 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:16:44,268 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:17:15,629 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:17:46,982 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:18:18,310 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:18:49,626 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:19:20,970 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:19:52,347 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:20:23,665 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:20:55,026 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:21:26,398 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:21:57,743 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:22:29,127 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:23:00,486 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:23:31,838 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:24:03,213 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:24:34,603 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:25:05,974 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:25:37,320 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:26:08,680 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:26:40,004 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:27:11,356 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:27:42,726 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:28:14,019 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:28:44,083 WARNING MainThread:99693 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-01-21 17:28:45,316 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:29:16,621 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:29:47,945 DEBUG   SenderThread:99693 [sender.py:send():234] send: stats
+2022-01-21 17:30:08,823 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/output.log
+2022-01-21 17:30:10,824 INFO    Thread-8  :99693 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/jinsukim/codes_for_study/gnn/MNIST_GNN/wandb/run-20220121_161915-3w038660/files/output.log

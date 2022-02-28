@@ -1,0 +1,53 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 59, in _wrap
+    fn(i, *args)
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/utility/distributed.py", line 79, in run
+    pred = model(batch)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 886, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/model/network.py", line 239, in forward
+    x = self.tail(x3, edge_idx)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jinsukim/codes_for_study/gnn/MNIST_GNN/model/layer.py", line 53, in forward
+    x = self.gat(x, edge_idx)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/nn/conv/gat_conv.py", line 218, in forward
+    out = self.propagate(edge_index, x=x, alpha=alpha, edge_attr=edge_attr,
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/nn/conv/message_passing.py", line 309, in propagate
+    out = self.message(**msg_kwargs)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch_geometric/nn/conv/gat_conv.py", line 261, in message
+    return x_j * alpha.unsqueeze(-1)
+RuntimeError: CUDA out of memory. Tried to allocate 1.07 GiB (GPU 0; 11.78 GiB total capacity; 5.27 GiB already allocated; 925.00 MiB free; 5.68 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 66, in _wrap
+    sys.exit(1)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/site-packages/wandb/sdk/lib/exit_hooks.py", line 38, in exit
+    self._orig_exit(orig_code)
+SystemExit: 1
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/process.py", line 318, in _bootstrap
+    util._exit_function()
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/util.py", line 357, in _exit_function
+    p.join()
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/popen_fork.py", line 43, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/home/jinsukim/miniconda3/envs/gnn_environment/lib/python3.9/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt

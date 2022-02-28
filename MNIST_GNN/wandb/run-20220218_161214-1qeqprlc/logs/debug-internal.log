@@ -1,0 +1,1593 @@
+2022-02-18 16:12:15,208 INFO    MainThread:13819 [internal.py:wandb_internal():87] W&B internal server running at pid: 13819, started at: 2022-02-18 16:12:15.207947
+2022-02-18 16:12:15,209 INFO    WriterThread:13819 [datastore.py:open_for_write():77] open: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/run-1qeqprlc.wandb
+2022-02-18 16:12:15,209 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: check_version
+2022-02-18 16:12:15,210 DEBUG   SenderThread:13819 [sender.py:send():234] send: header
+2022-02-18 16:12:15,210 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: check_version
+2022-02-18 16:12:15,244 DEBUG   SenderThread:13819 [sender.py:send():234] send: run
+2022-02-18 16:12:15,520 INFO    SenderThread:13819 [dir_watcher.py:__init__():169] watching files in: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files
+2022-02-18 16:12:15,520 INFO    SenderThread:13819 [sender.py:_start_run_threads():804] run started: 1qeqprlc with start time 1645200734
+2022-02-18 16:12:15,520 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:12:15,520 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:12:15,521 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: run_start
+2022-02-18 16:12:15,523 DEBUG   HandlerThread:13819 [meta.py:__init__():40] meta init
+2022-02-18 16:12:15,523 DEBUG   HandlerThread:13819 [meta.py:__init__():54] meta init done
+2022-02-18 16:12:15,523 DEBUG   HandlerThread:13819 [meta.py:probe():214] probe
+2022-02-18 16:12:15,529 DEBUG   HandlerThread:13819 [meta.py:_setup_git():204] setup git
+2022-02-18 16:12:15,537 DEBUG   HandlerThread:13819 [meta.py:_setup_git():211] setup git done
+2022-02-18 16:12:15,537 DEBUG   HandlerThread:13819 [meta.py:_save_pip():58] save pip
+2022-02-18 16:12:15,537 DEBUG   HandlerThread:13819 [meta.py:_save_pip():72] save pip done
+2022-02-18 16:12:15,537 DEBUG   HandlerThread:13819 [meta.py:_save_conda():79] save conda
+2022-02-18 16:12:16,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:12:16,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/requirements.txt
+2022-02-18 16:12:16,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/conda-environment.yaml
+2022-02-18 16:12:16,720 DEBUG   HandlerThread:13819 [meta.py:_save_conda():89] save conda done
+2022-02-18 16:12:16,720 DEBUG   HandlerThread:13819 [meta.py:probe():252] probe done
+2022-02-18 16:12:16,722 DEBUG   SenderThread:13819 [sender.py:send():234] send: files
+2022-02-18 16:12:16,722 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-02-18 16:12:16,725 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:12:16,725 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:12:16,917 DEBUG   SenderThread:13819 [sender.py:send():234] send: run
+2022-02-18 16:12:17,144 INFO    SenderThread:13819 [sender.py:send_run():702] updated run: 1qeqprlc
+2022-02-18 16:12:17,323 INFO    Thread-11 :13819 [upload_job.py:push():137] Uploaded file /tmp/tmpyizbilbxwandb/felm8yp2-wandb-metadata.json
+2022-02-18 16:12:17,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/config.yaml
+2022-02-18 16:12:17,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/conda-environment.yaml
+2022-02-18 16:12:17,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:12:17,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-metadata.json
+2022-02-18 16:12:19,521 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:12:27,523 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:12:29,524 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:12:31,917 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:12:31,917 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:12:43,926 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:12:47,110 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:12:47,110 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:13:02,309 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:13:02,309 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:13:07,069 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:13:07,069 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:13:07,070 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:13:07,531 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:13:09,532 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:13:14,226 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:13:17,983 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:13:17,984 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:13:33,176 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:13:33,176 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:13:44,058 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:13:44,058 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:13:44,059 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:13:44,539 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:13:44,574 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:13:45,539 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:13:48,388 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:13:48,389 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:14:03,587 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:14:03,587 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:14:14,913 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:14:18,781 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:14:18,781 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:14:23,174 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:14:23,174 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:14:23,175 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:14:23,546 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:14:25,547 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:14:33,985 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:14:33,985 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:14:45,275 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:14:49,169 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:14:49,169 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:15:02,871 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:15:02,872 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:15:02,872 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:15:03,555 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:15:04,370 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:15:04,370 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:15:05,555 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:15:15,634 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:15:19,569 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:15:19,569 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:15:34,774 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:15:34,774 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:15:41,131 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:15:41,131 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:15:41,132 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:15:41,563 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:15:41,563 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:15:46,014 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:15:49,983 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:15:49,983 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:16:05,197 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:16:05,197 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:16:16,370 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:16:17,854 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:16:17,854 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:16:17,855 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:16:18,570 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:16:19,570 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:16:20,390 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:16:20,390 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:16:35,619 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:16:35,619 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:16:46,714 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:16:50,824 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:16:50,824 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:16:55,329 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:16:55,329 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:16:55,329 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:16:55,577 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:16:57,577 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:17:09,362 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:17:09,362 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:17:17,052 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:17:24,561 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:17:24,561 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:17:32,978 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:17:32,978 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:17:32,979 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:17:33,584 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:17:33,584 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:17:39,788 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:17:39,788 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:17:47,385 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:17:54,971 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:17:54,971 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:18:10,203 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:18:10,203 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:18:11,544 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:18:11,545 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:18:11,545 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:18:11,591 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:18:13,591 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:18:17,716 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:18:25,406 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:18:25,406 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:18:40,628 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:18:40,628 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:18:48,057 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:18:50,407 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:18:50,407 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:18:50,408 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:18:50,598 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:18:52,599 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:18:55,810 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:18:55,810 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:19:11,019 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:19:11,019 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:19:18,436 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:19:26,221 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:19:26,221 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:19:28,157 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:19:28,157 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:19:28,157 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:19:28,606 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:19:30,606 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:19:41,444 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:19:41,444 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:19:48,792 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:19:56,645 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:19:56,645 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:20:09,225 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:20:09,225 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:20:09,225 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:20:09,614 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:20:10,614 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:20:11,867 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:20:11,867 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:20:19,133 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:20:27,062 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:20:27,062 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:20:42,262 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:20:42,262 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:20:44,866 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:20:44,866 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:20:44,866 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:20:45,621 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:20:46,621 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:20:49,484 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:20:57,467 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:20:57,467 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:21:12,662 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:21:12,662 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:21:19,854 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:21:23,173 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:21:23,173 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:21:23,173 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:21:23,629 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:21:24,629 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:21:27,868 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:21:27,868 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:21:43,068 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:21:43,068 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:21:50,208 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:21:58,277 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:21:58,277 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:22:00,060 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:22:00,060 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:22:00,061 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:22:00,636 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:22:02,636 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:22:13,474 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:22:13,474 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:22:20,541 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:22:28,685 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:22:28,685 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:22:38,375 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:22:38,375 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:22:38,375 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:22:38,644 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:22:40,644 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:22:43,877 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:22:43,877 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:22:50,869 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:22:59,071 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:22:59,071 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:23:14,268 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:23:14,268 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:23:16,394 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:23:16,394 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:23:16,395 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:23:16,651 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:23:18,652 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:23:21,214 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:23:29,457 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:23:29,457 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:23:44,665 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:23:44,666 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:23:51,570 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:23:54,676 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:23:54,676 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:23:54,677 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:23:55,660 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:23:56,660 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:23:59,910 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:23:59,910 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:24:15,110 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:24:15,111 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:24:21,951 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:24:30,294 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:24:30,294 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:24:33,626 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:24:33,626 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:24:33,627 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:24:33,667 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:24:34,668 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:24:45,485 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:24:45,485 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:24:52,299 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:25:00,700 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:25:00,700 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:25:10,850 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:25:10,851 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:25:10,851 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:25:11,675 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:25:12,675 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:25:15,891 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:25:15,891 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:25:22,648 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:25:31,088 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:25:31,089 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:25:46,293 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:25:46,293 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:25:48,747 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:25:48,747 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:25:48,748 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:25:49,682 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:25:50,682 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:25:53,005 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:26:01,505 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:26:01,506 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:26:16,720 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:26:16,720 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:26:23,376 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:26:26,513 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:26:26,514 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:26:26,514 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:26:26,690 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:26:28,690 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:26:31,920 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:26:31,920 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:26:47,111 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:26:47,111 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:26:53,706 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:27:02,312 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:27:02,312 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:27:03,714 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:27:03,715 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:27:03,715 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:27:04,697 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:27:06,698 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:27:17,513 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:27:17,514 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:27:24,044 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:27:32,722 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:27:32,722 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:27:39,362 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:27:39,362 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:27:39,362 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:27:39,704 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:27:40,704 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:27:47,914 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:27:47,914 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:27:54,373 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:28:03,109 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:28:03,109 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:28:16,253 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:28:16,253 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:28:16,253 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:28:16,713 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:28:18,336 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:28:18,336 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:28:18,713 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:28:24,759 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:28:33,523 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:28:33,523 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:28:48,739 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:28:48,739 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:28:53,696 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:28:53,696 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:28:53,696 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:28:53,720 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:28:55,079 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:28:55,720 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:29:03,942 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:29:03,943 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:29:19,166 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:29:19,166 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:29:25,417 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:29:31,484 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:29:31,484 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:29:31,484 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:29:31,727 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:29:33,728 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:29:34,356 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:29:34,356 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:29:49,567 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:29:49,568 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:29:55,770 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:30:04,780 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:30:04,780 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:30:11,861 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:30:11,861 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:30:11,861 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:30:12,735 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:30:13,735 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:30:20,019 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:30:20,019 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:30:26,112 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:30:35,226 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:30:35,226 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:30:50,150 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:30:50,150 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:30:50,150 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:30:50,418 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:30:50,418 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:30:50,743 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:30:51,743 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:30:56,468 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:31:05,638 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:31:05,638 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:31:20,847 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:31:20,848 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:31:26,875 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:31:29,435 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:31:29,436 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:31:29,436 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:31:29,750 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:31:31,751 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:31:36,075 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:31:36,075 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:31:51,271 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:31:51,271 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:31:57,217 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:32:06,461 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:32:06,461 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:32:06,695 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:32:06,695 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:32:06,695 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:32:06,758 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:32:07,758 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:32:21,662 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:32:21,662 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:32:27,555 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:32:36,867 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:32:36,868 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:32:44,635 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:32:44,636 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:32:44,636 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:32:44,765 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:32:45,765 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:32:52,065 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:32:52,065 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:32:57,906 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:33:07,279 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:33:07,279 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:33:22,614 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:33:22,614 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:33:23,838 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:33:23,838 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:33:23,839 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:33:24,773 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:33:25,773 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:33:28,276 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:33:37,805 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:33:37,805 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:33:53,004 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:33:53,004 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:33:58,600 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:34:02,324 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:34:02,324 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:34:02,324 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:34:02,781 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:34:03,781 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:34:08,204 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:34:08,204 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:34:23,419 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:34:23,419 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:34:28,967 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:34:38,645 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:34:38,645 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:34:40,390 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:34:40,391 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:34:40,391 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:34:40,788 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:34:41,788 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:34:53,829 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:34:53,829 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:34:59,310 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:35:09,459 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:35:09,459 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:35:18,521 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:35:18,521 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:35:18,522 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:35:18,796 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:35:19,796 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:35:24,681 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:35:24,681 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:35:29,664 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:35:39,934 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:35:39,934 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:35:55,117 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:35:55,118 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:35:56,991 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:35:56,991 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:35:56,991 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:35:57,803 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:35:57,803 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:36:00,003 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:36:10,327 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:36:10,327 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:36:25,867 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:36:25,867 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:36:30,343 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:36:34,499 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:36:34,499 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:36:34,499 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:36:34,811 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:36:36,812 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:36:41,066 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:36:41,066 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:36:56,251 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:36:56,251 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:37:00,693 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:37:11,442 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:37:11,442 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:37:14,172 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:37:14,173 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:37:14,173 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:37:14,820 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:37:16,821 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:37:26,646 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:37:26,646 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:37:31,045 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:37:41,857 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:37:41,857 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:37:51,163 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:37:51,163 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:37:51,163 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:37:51,827 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:37:52,828 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:37:57,498 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:37:57,499 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:38:01,371 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:38:12,691 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:38:12,691 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:38:27,906 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:38:27,906 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:38:30,769 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:38:30,769 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:38:30,770 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:38:30,835 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:38:31,717 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:38:32,835 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:38:43,135 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:38:43,136 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:38:58,368 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:38:58,368 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:39:02,034 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:39:09,578 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:39:09,579 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:39:09,579 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:39:09,842 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:39:10,843 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:39:13,576 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:39:13,576 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:39:28,801 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:39:28,801 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:39:32,365 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:39:43,987 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:39:43,987 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:39:47,044 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:39:47,044 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:39:47,044 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:39:47,850 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:39:48,850 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:39:59,173 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:39:59,173 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:40:02,681 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:40:14,366 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:40:14,366 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:40:26,429 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:40:26,429 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:40:26,429 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:40:26,857 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:40:28,857 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:40:29,595 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:40:29,596 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:40:33,042 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:40:44,856 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:40:44,856 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:41:00,055 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:41:00,055 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:41:03,359 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:41:03,438 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:41:03,438 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:41:03,439 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:41:03,864 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:41:04,864 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:41:15,237 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:41:15,237 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:41:30,436 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:41:30,436 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:41:33,704 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:41:42,249 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:41:42,249 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:41:42,249 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:41:42,872 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:41:44,872 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:41:45,643 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:41:45,643 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:42:00,846 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:42:00,846 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:42:04,059 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:42:16,034 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:42:16,035 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:42:19,719 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:42:19,719 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:42:19,720 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:42:19,879 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:42:20,879 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:42:31,226 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:42:31,226 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:42:34,424 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:42:46,420 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:42:46,420 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:42:56,572 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:42:56,572 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:42:56,573 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:42:56,886 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:42:58,887 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:43:01,928 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:43:01,928 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:43:04,742 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:43:17,113 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:43:17,113 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:43:32,312 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:43:32,312 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:43:34,517 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:43:34,518 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:43:34,518 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:43:34,894 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:43:35,047 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:43:36,894 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:43:47,525 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:43:47,525 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:44:02,728 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:44:02,729 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:44:05,398 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:44:12,759 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:44:12,759 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:44:12,759 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:44:12,901 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:44:14,902 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:44:18,480 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:44:18,480 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:44:33,675 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:44:33,675 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:44:35,831 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:44:48,895 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:44:48,895 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:44:50,782 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:44:50,782 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:44:50,782 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:44:50,909 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:44:52,909 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:45:04,103 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:45:04,104 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:45:06,178 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:45:19,374 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:45:19,374 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:45:30,435 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:45:30,436 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:45:30,436 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:45:30,917 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:45:32,917 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:45:34,574 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:45:34,574 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:45:36,582 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:45:49,771 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:45:49,771 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:46:04,986 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:46:04,986 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:46:06,979 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:46:09,317 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:46:09,317 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:46:09,318 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:46:09,924 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:46:10,924 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:46:20,185 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:46:20,185 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:46:35,375 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:46:35,375 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:46:37,329 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:46:48,929 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:46:48,929 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:46:48,929 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:46:48,931 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:46:50,595 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:46:50,595 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:46:50,932 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:47:06,430 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:47:06,430 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:47:07,647 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:47:21,616 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:47:21,616 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:47:25,295 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:47:25,295 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:47:25,296 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:47:25,939 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:47:26,939 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:47:36,811 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:47:36,811 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:47:37,927 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:47:52,047 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:47:52,047 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:48:03,959 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:48:03,960 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:48:03,960 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:48:04,946 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:48:04,946 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:48:07,241 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:48:07,242 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:48:08,233 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:48:22,450 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:48:22,450 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:48:37,634 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:48:37,634 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:48:38,527 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:48:41,235 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:48:41,235 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:48:41,236 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:48:41,953 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:48:42,953 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:48:53,164 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:48:53,164 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:49:08,609 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:49:08,609 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:49:08,826 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:49:17,960 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:49:17,961 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:49:17,961 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:49:18,961 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:49:18,961 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:49:23,827 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:49:23,827 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:49:39,029 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:49:39,029 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:49:39,248 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:49:54,249 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:49:54,249 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:49:54,488 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:49:54,489 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:49:54,489 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:49:54,968 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:49:54,968 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:50:09,427 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:50:09,489 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:50:09,489 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:50:24,680 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:50:24,680 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:50:32,760 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:50:32,760 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:50:32,760 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:50:32,977 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:50:32,977 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:50:34,977 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:50:39,731 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:50:39,881 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:50:39,881 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:50:55,084 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:50:55,085 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:51:10,044 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:51:10,280 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:51:10,280 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:51:10,861 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:51:10,861 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:51:10,862 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:51:10,984 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:51:12,984 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:51:25,466 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:51:25,466 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:51:40,361 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:51:40,663 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:51:40,664 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:51:49,110 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:51:49,110 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:51:49,111 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:51:49,992 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:51:49,992 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:51:55,873 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:51:55,873 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:52:10,663 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:52:11,074 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:52:11,074 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:52:26,027 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:52:26,028 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:52:26,028 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:52:26,342 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:52:26,342 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:52:27,000 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:52:28,000 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:52:40,970 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:52:41,556 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:52:41,556 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:52:56,754 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:52:56,754 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:53:02,874 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:53:02,874 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:53:02,874 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:53:03,008 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:53:04,008 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:53:11,266 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:53:11,954 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:53:11,954 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:53:27,145 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:53:27,146 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:53:40,300 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:53:40,300 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:53:40,300 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:53:41,015 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:53:41,581 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:53:42,016 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:53:42,339 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:53:42,339 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:53:57,543 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:53:57,544 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:54:11,875 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:54:12,735 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:54:12,736 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:54:19,850 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:54:19,850 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:54:19,851 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:54:20,023 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:54:22,023 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:54:27,943 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:54:27,943 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:54:42,203 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:54:43,129 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:54:43,129 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:54:58,331 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:54:58,331 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:54:59,052 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:54:59,052 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:54:59,052 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:55:00,032 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:55:00,032 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:55:12,502 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:55:13,596 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:55:13,596 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:55:28,796 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:55:28,797 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:55:36,168 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:55:36,168 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:55:36,168 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:55:37,040 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:55:38,040 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:55:42,799 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:55:44,024 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:55:44,024 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:55:59,214 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:55:59,214 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:56:13,133 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:56:14,417 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:56:14,417 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:56:14,662 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:56:14,662 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:56:14,662 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:56:15,048 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:56:16,048 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:56:29,663 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:56:29,663 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:56:43,426 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:56:44,872 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:56:44,872 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:56:51,938 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:56:51,938 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:56:51,938 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:56:52,055 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:56:54,055 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:57:00,083 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:57:00,084 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:57:13,724 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:57:15,289 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:57:15,289 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:57:30,483 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:57:30,483 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:57:30,694 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:57:30,694 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:57:30,695 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:57:31,062 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:57:32,062 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:57:44,065 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:57:45,695 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:57:45,695 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:58:00,893 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:58:00,893 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:58:07,650 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:58:07,650 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:58:07,650 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:58:08,070 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:58:10,070 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:58:14,368 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:58:16,086 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:58:16,086 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:58:31,280 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:58:31,280 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:58:44,666 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:58:45,332 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:58:45,332 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:58:45,333 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:58:46,077 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:58:46,077 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:58:46,497 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:58:46,497 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:59:01,695 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:59:01,695 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:59:14,994 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:59:16,901 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:59:16,902 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:59:22,509 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 16:59:22,510 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 16:59:22,510 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 16:59:23,084 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 16:59:24,084 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 16:59:32,115 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:59:32,116 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 16:59:45,314 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 16:59:47,330 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 16:59:47,330 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:00:00,511 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:00:00,511 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:00:00,511 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:00:01,091 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:00:02,528 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:00:02,528 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:00:03,092 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:00:15,632 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:00:17,742 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:00:17,742 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:00:32,957 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:00:32,957 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:00:37,571 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:00:37,571 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:00:37,571 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:00:38,099 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:00:39,099 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:00:45,951 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:00:48,220 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:00:48,220 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:01:03,414 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:01:03,414 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:01:15,957 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:01:15,958 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:01:15,959 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:01:16,106 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:01:16,257 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:01:17,106 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:01:18,637 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:01:18,637 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:01:33,826 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:01:33,826 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:01:46,550 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:01:49,013 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:01:49,013 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:01:52,739 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:01:52,739 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:01:52,739 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:01:53,113 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:01:55,113 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:02:04,214 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:02:04,214 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:02:16,868 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:02:19,401 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:02:19,402 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:02:28,990 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:02:28,990 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:02:28,991 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:02:29,120 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:02:31,121 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:02:34,666 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:02:34,666 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:02:47,183 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:02:49,877 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:02:49,877 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:03:05,078 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:03:05,078 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:03:07,477 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:03:07,477 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:03:07,477 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:03:08,128 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:03:09,128 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:03:17,534 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:03:20,281 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:03:20,281 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:03:35,619 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:03:35,619 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:03:45,079 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:03:45,080 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:03:45,080 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:03:45,136 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:03:47,136 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:03:47,845 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:03:50,859 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:03:50,859 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:04:06,085 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:04:06,085 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:04:18,161 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:04:21,282 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:04:21,282 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:04:23,809 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:04:23,809 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:04:23,809 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:04:24,144 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:04:25,144 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:04:36,490 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:04:36,491 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:04:48,504 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:04:51,693 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:04:51,693 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:05:00,597 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:05:00,597 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:05:00,597 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:05:01,152 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:05:03,153 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:05:06,886 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:05:06,886 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:05:18,842 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:05:22,119 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:05:22,120 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:05:37,351 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:05:37,351 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:05:39,242 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:05:39,242 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:05:39,243 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:05:40,160 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:05:42,160 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:05:49,142 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:05:52,573 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:05:52,573 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:06:07,761 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:06:07,761 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:06:16,996 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:06:16,996 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:06:16,997 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:06:17,167 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:06:19,453 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:06:20,168 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:06:22,971 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:06:22,971 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:06:38,180 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:06:38,180 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:06:49,761 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:06:53,374 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:06:53,375 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:06:55,713 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:06:55,713 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:06:55,714 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:06:56,175 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:06:58,175 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:07:08,595 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:07:08,595 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:07:20,083 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:07:23,801 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:07:23,802 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:07:32,389 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:07:32,389 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:07:32,390 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:07:33,182 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:07:34,182 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:07:39,029 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:07:39,029 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:07:50,393 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:07:54,223 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:07:54,223 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:08:09,416 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:08:09,416 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:08:09,659 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:08:09,660 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:08:09,660 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:08:10,189 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:08:12,189 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:08:20,723 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:08:24,616 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:08:24,616 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:08:39,820 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:08:39,820 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:08:46,135 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:08:46,135 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:08:46,136 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:08:46,196 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:08:48,196 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:08:51,095 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:08:55,037 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:08:55,038 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:09:10,221 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:09:10,221 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:09:21,407 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:09:23,594 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:09:23,594 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:09:23,595 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:09:24,203 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:09:24,203 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:09:25,865 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:09:25,865 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:09:41,061 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:09:41,061 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:09:51,732 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:09:56,253 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:09:56,253 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:10:01,642 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:10:01,643 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:10:01,643 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:10:02,210 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:10:02,211 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:10:11,439 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:10:11,439 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:10:22,019 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:10:26,651 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:10:26,651 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:10:38,606 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:10:38,606 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:10:38,606 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:10:39,217 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:10:40,218 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:10:41,849 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:10:41,849 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:10:52,312 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:10:57,030 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:10:57,030 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:11:12,225 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:11:12,225 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:11:15,657 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:11:15,657 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:11:15,657 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:11:16,225 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:11:16,225 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:11:22,627 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:11:27,419 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:11:27,419 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:11:42,616 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:11:42,617 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:11:52,226 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:11:52,226 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:11:52,226 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:11:52,232 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:11:52,989 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:11:54,232 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:11:57,807 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:11:57,807 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:12:12,992 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:12:12,993 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:12:23,331 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:12:28,199 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:12:28,199 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:12:30,028 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:12:30,029 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:12:30,029 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:12:30,239 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:12:32,239 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:12:43,384 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:12:43,384 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:12:53,689 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:12:58,578 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:12:58,578 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:13:08,967 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:13:08,967 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:13:08,967 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:13:09,246 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:13:10,247 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:13:13,769 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:13:13,769 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:13:24,012 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:13:29,002 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:13:29,002 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:13:44,196 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:13:44,196 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:13:47,421 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:13:47,422 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:13:47,422 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:13:48,254 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:13:49,254 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:13:54,331 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:13:59,388 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:13:59,388 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:14:14,589 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:14:14,589 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:14:24,650 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:14:24,650 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:14:24,652 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:14:24,698 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:14:25,261 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:14:27,261 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:14:29,865 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:14:29,865 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:14:45,083 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:14:45,083 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:14:55,085 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:15:00,282 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:15:00,283 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:15:00,542 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:15:00,542 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:15:00,543 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:15:01,268 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:15:03,268 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:15:15,479 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:15:15,479 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:15:25,408 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:15:30,724 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:15:30,724 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:15:39,716 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:15:39,716 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:15:39,717 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:15:40,275 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:15:41,275 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:15:45,938 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:15:45,938 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:15:55,763 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:16:01,142 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:16:01,142 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:16:16,417 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:16:16,417 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:16:17,223 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:16:17,224 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:16:17,224 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:16:17,282 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:16:19,282 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:16:26,108 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:16:31,629 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:16:31,629 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:16:46,875 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:16:46,876 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:16:54,929 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:16:54,929 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:16:54,929 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:16:55,289 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:16:56,441 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:16:57,290 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:17:02,078 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:17:02,078 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:17:17,300 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:17:17,300 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:17:26,764 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:17:31,629 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:17:31,630 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:17:31,630 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:17:32,296 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:17:32,510 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:17:32,510 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:17:33,296 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:17:47,707 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:17:47,707 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:17:57,112 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:18:02,893 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:18:02,893 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:18:10,272 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:18:10,272 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:18:10,272 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:18:10,304 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:18:11,304 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:18:18,081 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:18:18,081 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:18:27,462 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:18:33,279 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:18:33,279 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:18:47,210 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:18:47,211 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:18:47,211 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:18:47,311 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:18:48,489 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:18:48,490 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:18:49,311 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:18:57,813 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:19:03,764 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:19:03,764 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:19:18,959 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:19:18,959 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:19:25,117 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:19:25,118 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:19:25,118 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:19:25,318 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:19:28,148 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:19:28,319 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:19:34,166 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:19:34,166 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:19:49,361 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:19:49,361 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:19:58,489 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:20:01,489 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:20:01,489 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:20:01,489 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:20:02,325 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:20:04,325 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:20:04,553 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:20:04,553 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:20:19,735 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:20:19,735 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:20:28,854 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:20:34,943 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:20:34,943 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:20:40,275 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:20:40,275 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:20:40,275 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:20:40,332 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:20:42,333 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:20:50,152 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:20:50,153 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:20:59,139 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:21:05,342 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:21:05,343 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:21:18,443 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:21:18,443 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:21:18,443 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:21:19,340 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:21:20,340 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:21:20,551 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:21:20,551 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:21:29,466 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:21:35,756 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:21:35,756 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:21:50,975 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:21:50,975 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:21:57,368 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:21:57,368 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:21:57,368 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:21:58,347 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:21:58,347 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:21:59,829 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:22:06,180 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:22:06,180 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:22:21,362 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:22:21,362 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:22:30,137 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:22:35,727 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:22:35,727 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:22:35,727 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:22:36,354 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:22:36,556 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:22:36,556 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:22:38,355 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:22:51,760 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:22:51,760 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:23:00,459 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:23:06,953 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:23:06,953 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:23:14,000 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:23:14,000 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:23:14,001 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:23:14,362 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:23:16,363 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:23:22,142 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:23:22,142 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:23:30,816 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:23:37,339 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:23:37,339 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:23:52,308 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:23:52,308 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:23:52,308 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:23:52,369 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:23:52,529 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:23:52,529 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:23:54,370 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:24:01,138 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:24:07,739 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:24:07,740 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:24:22,949 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:24:22,949 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:24:29,942 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:24:29,942 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:24:29,942 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:24:30,377 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:24:31,497 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:24:32,377 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:24:38,138 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:24:38,138 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:24:53,343 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:24:53,344 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:25:01,797 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:25:08,005 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:25:08,005 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:25:08,005 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:25:08,384 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:25:08,384 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:25:08,537 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:25:08,537 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:25:23,732 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:25:23,733 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:25:32,175 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:25:38,925 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:25:38,925 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:25:46,141 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:25:46,141 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:25:46,141 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:25:46,391 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:25:48,392 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:25:54,153 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:25:54,153 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:26:02,481 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:26:09,345 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:26:09,345 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:26:23,787 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:26:23,788 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:26:23,788 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:26:24,399 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:26:24,556 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:26:24,556 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:26:25,399 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:26:32,783 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:26:39,743 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:26:39,744 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:26:54,956 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:26:54,956 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:27:02,094 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:27:02,094 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:27:02,094 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:27:02,406 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:27:03,134 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:27:03,406 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:27:10,169 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:27:10,169 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:27:25,402 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:27:25,402 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:27:33,444 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:27:39,719 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:27:39,719 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:27:39,719 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:27:40,413 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:27:40,618 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:27:40,618 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:27:41,413 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:27:55,817 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:27:55,817 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:28:03,815 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:28:11,018 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:28:11,019 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:28:16,195 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:28:16,195 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:28:16,196 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:28:16,420 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:28:17,421 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:28:26,241 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:28:26,241 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:28:34,116 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:28:41,428 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:28:41,428 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:28:54,024 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:28:54,024 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:28:54,024 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:28:54,428 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:28:55,428 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:28:56,622 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:28:56,623 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:29:04,401 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:29:11,817 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:29:11,818 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:29:27,027 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:29:27,028 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:29:30,871 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:29:30,871 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:29:30,872 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:29:31,435 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:29:33,435 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:29:34,694 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:29:42,210 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:29:42,210 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:29:57,401 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:29:57,401 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:30:05,038 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:30:07,927 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:30:07,927 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:30:07,928 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:30:08,442 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:30:09,442 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:30:12,599 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:30:12,599 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:30:27,800 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:30:27,800 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:30:35,412 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:30:42,997 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:30:42,997 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:30:46,597 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:30:46,597 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:30:46,597 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:30:47,449 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:30:49,449 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:30:58,208 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:30:58,208 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:31:05,709 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:31:13,462 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:31:13,463 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:31:24,062 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:31:24,063 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:31:24,063 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:31:24,456 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:31:25,456 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:31:28,653 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:31:28,653 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:31:36,071 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:31:43,943 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:31:43,943 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:31:59,150 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:31:59,150 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:32:02,768 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:32:02,768 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:32:02,769 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:32:03,463 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:32:05,464 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:32:06,403 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:32:14,371 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:32:14,371 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:32:29,563 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:32:29,563 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:32:36,738 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:32:41,429 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:32:41,429 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:32:41,429 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:32:41,471 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:32:43,471 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:32:44,755 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:32:44,755 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:32:59,958 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:32:59,958 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:33:07,082 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:33:15,163 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 17:33:15,164 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 17:33:17,891 DEBUG   SenderThread:13819 [sender.py:send():234] send: history
+2022-02-18 17:33:17,891 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:33:17,891 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:33:18,478 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:33:19,478 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:33:26,480 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:33:27,883 DEBUG   SenderThread:13819 [sender.py:send():234] send: telemetry
+2022-02-18 17:33:27,884 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:27,884 DEBUG   SenderThread:13819 [sender.py:send():234] send: exit
+2022-02-18 17:33:27,884 INFO    SenderThread:13819 [sender.py:send_exit():366] handling exit code: 0
+2022-02-18 17:33:27,884 INFO    SenderThread:13819 [sender.py:send_exit():368] handling runtime: 4872
+2022-02-18 17:33:27,884 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:33:27,884 INFO    SenderThread:13819 [sender.py:send_exit():374] send defer
+2022-02-18 17:33:27,885 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:27,885 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:27,885 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 0
+2022-02-18 17:33:27,885 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:27,885 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-02-18 17:33:27,885 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 1
+2022-02-18 17:33:27,885 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:27,885 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 1
+2022-02-18 17:33:27,909 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:27,909 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-02-18 17:33:27,909 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 2
+2022-02-18 17:33:27,909 DEBUG   SenderThread:13819 [sender.py:send():234] send: stats
+2022-02-18 17:33:27,910 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:27,910 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 2
+2022-02-18 17:33:27,910 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:27,910 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-02-18 17:33:27,910 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 3
+2022-02-18 17:33:27,910 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:27,910 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 3
+2022-02-18 17:33:27,910 DEBUG   SenderThread:13819 [sender.py:send():234] send: summary
+2022-02-18 17:33:27,911 INFO    SenderThread:13819 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 17:33:27,911 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:27,911 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-02-18 17:33:27,911 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 4
+2022-02-18 17:33:27,911 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:27,911 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 4
+2022-02-18 17:33:27,911 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:27,911 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-02-18 17:33:27,986 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,301 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 5
+2022-02-18 17:33:28,301 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:28,301 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:28,301 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 5
+2022-02-18 17:33:28,301 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:28,301 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-02-18 17:33:28,301 INFO    SenderThread:13819 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-18 17:33:28,402 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,480 INFO    Thread-8  :13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/config.yaml
+2022-02-18 17:33:28,480 INFO    SenderThread:13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:33:28,480 INFO    SenderThread:13819 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():313] scan: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():327] scan save: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-metadata.json wandb-metadata.json
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():327] scan save: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/conda-environment.yaml conda-environment.yaml
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():327] scan save: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/config.yaml config.yaml
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():327] scan save: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log output.log
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():327] scan save: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/requirements.txt requirements.txt
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [dir_watcher.py:finish():327] scan save: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json wandb-summary.json
+2022-02-18 17:33:28,481 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 6
+2022-02-18 17:33:28,481 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:28,485 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:28,485 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 6
+2022-02-18 17:33:28,486 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:28,486 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-02-18 17:33:28,486 INFO    SenderThread:13819 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-18 17:33:28,584 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,584 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:28,685 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,685 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:28,786 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,786 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:28,887 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,887 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:28,988 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:28,988 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:29,088 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:29,089 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:29,112 INFO    Thread-13 :13819 [upload_job.py:push():137] Uploaded file /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/config.yaml
+2022-02-18 17:33:29,136 INFO    Thread-12 :13819 [upload_job.py:push():137] Uploaded file /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/conda-environment.yaml
+2022-02-18 17:33:29,143 INFO    Thread-15 :13819 [upload_job.py:push():137] Uploaded file /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/requirements.txt
+2022-02-18 17:33:29,147 INFO    Thread-14 :13819 [upload_job.py:push():137] Uploaded file /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/output.log
+2022-02-18 17:33:29,189 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:29,190 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:29,240 INFO    Thread-16 :13819 [upload_job.py:push():137] Uploaded file /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/files/wandb-summary.json
+2022-02-18 17:33:29,290 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:29,290 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:29,391 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:29,392 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:29,441 INFO    Thread-7  :13819 [sender.py:transition_state():387] send defer: 7
+2022-02-18 17:33:29,441 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:29,441 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 7
+2022-02-18 17:33:29,441 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:29,441 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-02-18 17:33:29,493 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:30,255 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 8
+2022-02-18 17:33:30,255 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:30,256 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:30,256 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 8
+2022-02-18 17:33:30,256 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:30,256 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-02-18 17:33:30,256 INFO    SenderThread:13819 [sender.py:transition_state():387] send defer: 9
+2022-02-18 17:33:30,257 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 17:33:30,257 INFO    HandlerThread:13819 [handler.py:handle_request_defer():147] handle defer: 9
+2022-02-18 17:33:30,257 DEBUG   SenderThread:13819 [sender.py:send():234] send: final
+2022-02-18 17:33:30,257 DEBUG   SenderThread:13819 [sender.py:send():234] send: footer
+2022-02-18 17:33:30,257 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: defer
+2022-02-18 17:33:30,257 INFO    SenderThread:13819 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-02-18 17:33:30,356 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 17:33:30,357 DEBUG   SenderThread:13819 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 17:33:30,357 INFO    SenderThread:13819 [file_pusher.py:join():182] waiting for file pusher
+2022-02-18 17:33:30,733 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: get_summary
+2022-02-18 17:33:30,733 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: sampled_history
+2022-02-18 17:33:30,734 DEBUG   HandlerThread:13819 [handler.py:handle_request():130] handle_request: shutdown
+2022-02-18 17:33:30,734 INFO    HandlerThread:13819 [handler.py:finish():731] shutting down handler
+2022-02-18 17:33:31,257 INFO    WriterThread:13819 [datastore.py:close():281] close: /home/zinzinbin/codes_for_study/gnn/MNIST_GNN/wandb/run-20220218_161214-1qeqprlc/run-1qeqprlc.wandb
+2022-02-18 17:33:31,732 INFO    SenderThread:13819 [sender.py:finish():1070] shutting down sender
+2022-02-18 17:33:31,732 INFO    SenderThread:13819 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-18 17:33:31,732 INFO    SenderThread:13819 [file_pusher.py:join():182] waiting for file pusher
+2022-02-18 17:33:31,734 INFO    MainThread:13819 [internal.py:handle_exit():77] Internal process exited

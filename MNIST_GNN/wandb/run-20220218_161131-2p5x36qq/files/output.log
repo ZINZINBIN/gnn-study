@@ -1,0 +1,59 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+----------------------------------------------------------------------------------------------------------
+                      Parent Layers       Layer (type)         Input Shape         Param #     Tr. Param #
+==========================================================================================================
+            DynamicReductionNetwork           Linear-1          [38400, 1]             128             128
+            DynamicReductionNetwork      BatchNorm1d-2         [38400, 64]             128             128
+            DynamicReductionNetwork              ELU-3         [38400, 64]               0               0
+            DynamicReductionNetwork           Linear-4         [38400, 64]           8,320           8,320
+            DynamicReductionNetwork      BatchNorm1d-5        [38400, 128]             256             256
+            DynamicReductionNetwork              ELU-6        [38400, 128]               0               0
+            DynamicReductionNetwork           Linear-7        [38400, 128]          16,512          16,512
+            DynamicReductionNetwork      BatchNorm1d-8        [38400, 128]             256             256
+            DynamicReductionNetwork              ELU-9        [38400, 128]               0               0
+   DynamicReductionNetwork/EdgeConv          Linear-10       [304914, 256]          49,344          49,344
+   DynamicReductionNetwork/EdgeConv     BatchNorm1d-11       [304914, 192]             384             384
+   DynamicReductionNetwork/EdgeConv             ELU-12       [304914, 192]               0               0
+   DynamicReductionNetwork/EdgeConv          Linear-13       [304914, 192]          24,704          24,704
+   DynamicReductionNetwork/EdgeConv     BatchNorm1d-14       [304914, 128]             256             256
+   DynamicReductionNetwork/EdgeConv             ELU-15       [304914, 128]               0               0
+   DynamicReductionNetwork/EdgeConv          Linear-16       [235156, 256]          49,344          49,344
+   DynamicReductionNetwork/EdgeConv     BatchNorm1d-17       [235156, 192]             384             384
+   DynamicReductionNetwork/EdgeConv             ELU-18       [235156, 192]               0               0
+   DynamicReductionNetwork/EdgeConv          Linear-19       [235156, 192]          24,704          24,704
+   DynamicReductionNetwork/EdgeConv     BatchNorm1d-20       [235156, 128]             256             256
+   DynamicReductionNetwork/EdgeConv             ELU-21       [235156, 128]               0               0
+            DynamicReductionNetwork          Linear-22          [512, 128]          16,512          16,512
+            DynamicReductionNetwork     BatchNorm1d-23          [512, 128]             256             256
+            DynamicReductionNetwork             ELU-24          [512, 128]               0               0
+            DynamicReductionNetwork          Linear-25          [512, 128]           8,256           8,256
+            DynamicReductionNetwork     BatchNorm1d-26           [512, 64]             128             128
+            DynamicReductionNetwork             ELU-27           [512, 64]               0               0
+            DynamicReductionNetwork          Linear-28           [512, 64]             650             650
+==========================================================================================================
+Total params: 200,778
+Trainable params: 200,778
+Non-trainable params: 0
+----------------------------------------------------------------------------------------------------------
+  0%|                                                                                            | 0/128 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/train_dynamic_reduction_network.py", line 80, in <module>
+    train_loss, train_acc, valid_loss, valid_acc = train_wandb(model, train_loader, criterion, optimizer, scheduler, device, num_epochs, is_valid=True, valid_loader=valid_loader, verbose = True, verbose_period=1, save_best_only=True, save_path=save_path, max_grad_norm=max_grad_norm)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/utility/train.py", line 260, in train_wandb
+    train_loss, train_acc = train_per_epoch(
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/utility/train.py", line 19, in train_per_epoch
+    pred = model.forward(batch)
+  File "/home/zinzinbin/codes_for_study/gnn/MNIST_GNN/model/network.py", line 401, in forward
+    x = self.inputnet(x)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/zinzinbin/.conda/envs/gnn_environment/lib/python3.9/site-packages/torch/nn/functional.py", line 2282, in batch_norm
+    return torch.batch_norm(
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 1; 11.91 GiB total capacity; 132.09 MiB already allocated; 15.94 MiB free; 154.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
