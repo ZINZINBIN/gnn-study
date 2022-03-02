@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.parallel.data_parallel import data_parallel
 import torch_geometric
-from torch_geometric.nn import GCNConv,GATConv, ChebConv, GMMConv, GATv2Conv
+from torch_geometric.nn import GCNConv,GATConv, ChebConv, GMMConv, GATv2Conv, SAGEConv, GraphConv
 from torch_scatter import scatter_max
 from torch_geometric.nn import global_max_pool, global_mean_pool, global_add_pool
 
@@ -76,6 +76,42 @@ class GMMConvLayer(nn.Module):
 
     def forward(self, x, edge_idx = None, edge_attr = None):
         x = self.GMMConv(x,edge_idx,edge_attr)
+        x = self.norm(x)
+        x = self.act(x)
+        return x
+
+class SAGEConvLayer(nn.Module):
+    def __init__(self, in_features: int, out_features: int, alpha: float):
+        super(SAGEConvLayer, self).__init__()
+        self.n_dims_in = in_features
+        self.n_dims_out = out_features
+        self.alpha = alpha
+
+        self.GMMConv = SAGEConv(in_features, out_features)
+        self.norm = nn.BatchNorm1d(self.n_dims_out)
+        self.act = nn.LeakyReLU(alpha)
+
+    def forward(self, x, edge_idx = None, edge_attr = None):
+        x = self.GMMConv(x,edge_idx)
+        x = self.norm(x)
+        x = self.act(x)
+        return x     
+
+
+class GraphConvLayer(nn.Module):
+    def __init__(self, in_features: int, out_features: int, alpha: float, aggr : str = "add"):
+        super(GraphConvLayer, self).__init__()
+        self.n_dims_in = in_features
+        self.n_dims_out = out_features
+        self.alpha = alpha
+        self.aggr = aggr
+
+        self.GraphConv = GraphConv(in_features, out_features, aggr = aggr)
+        self.norm = nn.BatchNorm1d(self.n_dims_out)
+        self.act = nn.LeakyReLU(alpha)
+
+    def forward(self, x, edge_idx=None, edge_attr=None):
+        x = self.GraphConv(x, edge_idx, edge_attr)
         x = self.norm(x)
         x = self.act(x)
         return x

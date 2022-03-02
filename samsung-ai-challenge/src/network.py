@@ -14,7 +14,7 @@ from pytorch_model_summary import summary
 from src.layer import *
 
 atom_feats = [7, 5, 4, 4, 2, 2, 4, 3, 8]
-mol_feats = 22
+mol_feats = 22        
 
 class FeatureEmbedding(nn.Module):
     def __init__(self, feature_lens, max_norm = 1.0):
@@ -36,6 +36,77 @@ class FeatureEmbedding(nn.Module):
         output.append(x[:, -self.feature_lens[-1]:])
         output = torch.cat(output, 1)
         return output
+
+
+class Network(nn.Module):
+    def __init__(self, model="GCN", *args, **kwargs):
+        super(Network, self).__init__()
+        self.model = model
+        self.args = args
+        self.atom_feat_emb = FeatureEmbedding(feature_lens=atom_feats, max_norm=args["embedd_max_norm"])
+
+        self.init_graph = self.build_layer(
+            model=model, 
+            in_features=sum(atom_feats), 
+            out_features = args["hidden"],
+            alpha = args["alpha"],
+            **kwargs
+        )
+
+    def forward(self, inputs):
+        x, edge_idx, batch_idx, edge_attr = inputs.x,  inputs.edge_index, inputs.batch, inputs.edge_attr
+        x = self.atom_feat_emb(x)
+        x = self.init_graph(x, edge_idx)
+        
+        return x
+                
+    def build_layer(self, model="GCN", *args):
+        if model == "GCN":
+            return GCNLayer(
+                in_features = args["in_features"],
+                out_features = args["out_features"],
+                alpha = args["alpha"]
+            )
+        elif model == "GAT":
+            return GATLayer(
+                num_features=args["in_features"],
+                hidden = args["out_features"],
+                num_head = args["num_head"],
+                alpha = args["alpha"],
+                p = args["p"]
+            )
+
+        elif model == "Chebnet":
+            return ChebConvLayer(
+                n_dims_in = args["in_features"],
+                k = args["k"],
+                n_dims_out=args["out_features"],
+                alpha = args["alpha"]
+            )
+        
+        elif model == "GMM":
+            return GMMConvLayer(
+                n_dims_in = args["in_features"],
+                dim = args["dim"],
+                n_dims_out = args["out_features"],
+                kernel_size = args["kernel_size"],
+                separate_gaussians=False,
+                alpha = args["alhpa"],
+                aggr = args["str"]
+            )
+        elif model == "GraphConv":
+            return GraphConvLayer(
+                in_features = args["in_features"],
+                out_features = args["out_features"],
+                alpha = args["alpha"],
+                aggr = args["aggr"]
+            )
+        else:
+            return GCNLayer(
+                in_features=args["in_features"],
+                out_features=args["out_features"],
+                alpha=args["alpha"]
+            )
 
 class GConvNet(nn.Module):
     def __init__(self, hidden, alpha = 0.01, embedd_max_norm = 1.0):
@@ -225,6 +296,60 @@ class GMMNet(nn.Module):
 
     def summary(self, sample_inputs):
         print(summary(self, sample_inputs, max_depth = None, show_parent_layers=True, show_input = True))
+
+
+class GraphConvNet(nn.Module):
+    def __init__(self, hidden, alpha=0.01, embedd_max_norm=1.0, aggr = "max"):
+        super(GraphConvNet, self).__init__()
+        torch.manual_seed(42)
+        self.hidden = hidden
+        self.alpha = alpha
+        self.embedd_max_norm = embedd_max_norm
+        self.aggr = aggr
+
+        if aggr == "max":
+            self.pooling = global_max_pool
+        elif aggr == "mean":
+            self.pooling = global_mean_pool
+        else:
+            self.pooling = global_add_pool
+
+        self.embedd = FeatureEmbedding(
+            feature_lens=atom_feats, max_norm=embedd_max_norm)
+        self.init_graph = GraphConvLayer(sum(atom_feats), hidden, alpha)
+        self.head = GraphConvLayer(hidden, hidden, alpha)
+        self.body = GraphConvLayer(hidden, hidden, alpha)
+        self.tail = GraphConvLayer(hidden, hidden, alpha)
+
+        self.mlp = nn.ModuleList(
+            [
+                nn.Linear(4 * self.hidden, self.hidden),
+                nn.BatchNorm1d(self.hidden),
+                nn.ReLU(),
+                nn.Linear(self.hidden, 1),
+            ]
+        )
+
+    def forward(self, inputs):
+        x, edge_idx, batch_idx = inputs.x,  inputs.edge_index, inputs.batch
+        edge_attr = inputs.edge_attr
+
+        x = self.embedd(x)
+        x = self.init_graph(x, edge_idx, edge_attr)
+        x1 = self.head(x, edge_idx, edge_attr)
+        x2 = self.body(x1, edge_idx, edge_attr)
+        x3 = torch.add(x, x2)
+        x = self.tail(x3, edge_idx, edge_attr)
+        x = torch.cat((x, x1, x2, x3), dim=1)
+        x = self.pooling(x, batch_idx)
+        x = torch.flatten(x, start_dim=1)
+        for layer in self.mlp:
+            x = layer(x)
+        return x.squeeze(1)
+
+    def summary(self, sample_inputs):
+        print(summary(self, sample_inputs, max_depth=None,
+              show_parent_layers=True, show_input=True))
 
 
 # C-SGEL : Molecule Property Prediction Based on Spatial Graph Embedding(https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00410?rand=oin4mnup)

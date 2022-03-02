@@ -52,7 +52,7 @@ if __name__ == "__main__":
     atom_feats = sample.x.size()[1]
 
     model = ChebNet(
-        k = 8,
+        k = 16,
         hidden = args['hidden'],
         alpha = args['alpha'],
         embedd_max_norm = args['embedd_max_norm']

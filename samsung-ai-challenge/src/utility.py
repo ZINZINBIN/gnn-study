@@ -203,7 +203,8 @@ def preprocessing(df : pd.DataFrame, mode = "train"):
                 else:
                     bond2idx = BOND_TYPE[bond_type]
 
-                bonds_attr.append([bond2idx, d])
+                # bonds_attr.append([bond2idx, d])
+                bonds_attr.append([bond2idx])
 
         bonds_attr = torch.tensor(bonds_attr, dtype = torch.long).contiguous()
         
@@ -247,7 +248,7 @@ import matplotlib.pyplot as plt
 
 def plot_training_curve(train_losses, valid_losses, save_dir = "./results/train-curve.png"):
     x_axis = range(1, len(train_losses) + 1)
-    plt.figure()
+    plt.figure(2)
     plt.plot(x_axis, train_losses, 'ro--', label = "train loss")
     plt.plot(x_axis, valid_losses, 'b^--', label = "valid loss")
     plt.xlabel("epochs")
