@@ -57,7 +57,7 @@ if __name__ == "__main__":
         args['hidden'],
         args['alpha'],
         args["embedd_max_norm"],
-        aggr = "add"
+        aggr = "mean"
     )
 
     model.summary(sample)
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     evaluate(
         model,
         valid_loader,
-        loss_fn,
+        loss_fn_eval,
         device,
         save_dir=args["save_result"]
     )
